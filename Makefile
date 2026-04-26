@@ -1,0 +1,13 @@
+.PHONY: build test run
+
+build:
+	cargo build
+
+test:
+	cargo test
+
+run:
+	cargo run -- $(filter-out $@,$(MAKECMDGOALS))
+
+%:
+	@:

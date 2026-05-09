@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+
+[[bin]]
+name = "session1"
+path = "src/session1.rs"
+
+[[bin]]
+name = "session2"
+path = "src/session2.rs"

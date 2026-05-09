@@ -49,7 +49,7 @@ fn main() {
 
     let mut s = String::from("hi");
     let r1 = &mut s;
-    let r2 = r1;
-    r1.push_str("!"); // mut is a move
+    // let r2 = r1;
+    // r1.push_str("!"); // mut is a move
 }
 
